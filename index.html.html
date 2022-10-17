@@ -1,0 +1,37 @@
+<script>
+
+//Ask for the first number
+var a = prompt("Put first value here");
+
+
+//Ask for mathematical operator
+var b = prompt("Insert mathematical symbol here /,*,+.-");
+
+//Ask for the second number
+var c = prompt("Put second value here");
+
+
+//Check the input against a condition
+
+if (b == "+") {
+    console.log(Number(a) + Number(c));
+    document.write(Number(a) + Number(c));
+}
+
+if (b == "-") {
+    console.log(a - c);
+    document.write(a - c);
+}
+
+else if (b == "/") {
+    console.log(a / c);
+    document.write(a / c);
+}
+
+if (b == "*") {
+    console.log(a * c);
+    document.write(a * c);
+}
+
+
+</script>
